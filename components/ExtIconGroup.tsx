@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import Link from "next/link";
 
 import { FaGithub, FaLinkedin, FaFileAlt, FaEnvelope } from "react-icons/fa";
 
