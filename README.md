@@ -1,6 +1,10 @@
-This is the repo for my personal site: [chrismathew.ca](http://chrismathew.ca/).
+# Personal Website
 
-## Getting Started
+## About
+
+This is the repo for my personal site: [chrismathew.ca](http://chrismathew.ca/). The purpose of this site is to let the user learn a little bit more about me and what I've worked on.
+
+## Build
 
 Follow the below steps to re-create this build/use as a template:
 
