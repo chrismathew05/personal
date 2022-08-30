@@ -6,15 +6,14 @@ import React, { FunctionComponent } from "react";
 export const About: FunctionComponent = () => (
   <section>
     <p>
-      Authentic scenester activated charcoal banh mi kale chips cred unicorn,
-      whatever ethical brunch mixtape cloud bread yr iceland. Jianbing keytar
-      selvage, lyft knausgaard everyday carry iceland farm-to-table venmo poke.
-      Coloring book single-origin coffee master cleanse unicorn seitan hella
-      ascot. Tattooed try-hard occupy man braid church-key aesthetic. Truffaut
-      migas flexitarian, neutra synth poutine cliche mumblecore vinyl
-      chicharrones yuccie craft beer. Mixtape drinking vinegar ugh iPhone. La
-      croix offal tattooed taiyaki you probably havent heard of them next level
-      drinking vinegar hella aesthetic unicorn stumptown sustainable woke.
+      Hi, welcome to my corner of the Internet! I&apos;m a graduate from the
+      University of Waterloo, Canada where I studied Mathematics and Accounting.
+      I am interested in using the power of data and software to solve real
+      business problems. I started out as a huge Excel/VBA nerd, but I&apos;ve
+      gradually broadened my skillset to address the complexity and size of
+      today&apos;s business problems. In my spare time, I work on side projects,
+      try to pick up more technical skills, watch NBA basketball, poorly attempt
+      to play basketball, and take walks.
     </p>
   </section>
 );
