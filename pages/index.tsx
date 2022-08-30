@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
+import { TOC } from "../components/TOC";
 import { About } from "../components/About";
 import { Projects } from "../components/Projects";
 import { Education } from "../components/Education";
@@ -49,35 +50,41 @@ const Home: NextPage = () => {
         </p>
         <ExtIconGroup />
 
-        {/* Content */}
-        <div className={styles.content}>
-          <h2 id="about">
-            <Link href="#about">
-              <a className={styles.headerLink}>About</a>
-            </Link>
-          </h2>
-          <About />
+        <div className={styles.row}>
+          <div className={styles.smallCol}>
+            <TOC />
+          </div>
 
-          <h2 id="projects">
-            <Link href="#projects">
-              <a className={styles.headerLink}>Projects</a>
-            </Link>
-          </h2>
-          <Projects />
+          {/* Content */}
+          <div className={styles.bigCol}>
+            <h2 id="about">
+              <Link href="#about">
+                <a className={styles.headerLink}>About</a>
+              </Link>
+            </h2>
+            <About />
 
-          <h2 id="experience">
-            <Link href="#experience">
-              <a className={styles.headerLink}>Experience</a>
-            </Link>
-          </h2>
-          <Experience />
+            <h2 id="projects">
+              <Link href="#projects">
+                <a className={styles.headerLink}>Projects</a>
+              </Link>
+            </h2>
+            <Projects />
 
-          <h2 id="education">
-            <Link href="#education">
-              <a className={styles.headerLink}>Education</a>
-            </Link>
-          </h2>
-          <Education />
+            <h2 id="experience">
+              <Link href="#experience">
+                <a className={styles.headerLink}>Experience</a>
+              </Link>
+            </h2>
+            <Experience />
+
+            <h2 id="education">
+              <Link href="#education">
+                <a className={styles.headerLink}>Education</a>
+              </Link>
+            </h2>
+            <Education />
+          </div>
         </div>
       </main>
 

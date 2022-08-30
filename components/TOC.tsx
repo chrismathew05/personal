@@ -1,41 +1,29 @@
 import React, { FunctionComponent } from "react";
 import Link from "next/link";
 
-import styles from "../styles/ExtIconGroup.module.css";
+import styles from "../styles/TOC.module.css";
 
 /**
- * Icon group containing external links
+ * Floating table of contents
  */
 export const TOC: FunctionComponent = () => {
   return (
-    <h3>
-      <a
-        href={"https://github.com/chrismathew05/"}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.icon}
-      >
-        <FaGithub />
-      </a>
-      <a
-        href={"https://ca.linkedin.com/in/chris-mathew-0bbb26128"}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.icon}
-      >
-        <FaLinkedin />
-      </a>
-      <a
-        href={"https://github.com/chrismathew05/"}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.icon}
-      >
-        <FaFileAlt />
-      </a>
-      <a href={"mailto:chrismathew05@gmail.com"} className={styles.icon}>
-        <FaEnvelope />
-      </a>
-    </h3>
+    <nav className={styles.nav}>
+      <b>Jump to:</b>
+      <ul>
+        <li>
+          <Link href="#about">About</Link>
+        </li>
+        <li>
+          <Link href="#projects">Projects</Link>
+        </li>
+        <li>
+          <Link href="#experience">Experience</Link>
+        </li>
+        <li>
+          <Link href="#education">Education</Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
