@@ -16,15 +16,12 @@ export const Projects: FunctionComponent = () => (
     />
 
     <p>
-      <a
-        href="https://od.meteorapp.com/pdflow"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ color: "royalblue" }}
-      >
-        Pdflow
-      </a>{" "}
-      is a low-code solution for extracting information from PDFs.
+      &quot;Pdflow&quot; is a low-code solution to extract text from fixed
+      positions within PDF files. When I was a Staff Accountant at KPMG, I built
+      several VBA programs that involved reading text from PDF documents; thus,
+      I finally decided to build a tool that would help simplify this process of
+      building extraction sequences. The web app for Pdflow is built using
+      MeteorJS + React.
     </p>
 
     <h3>ERP System</h3>
