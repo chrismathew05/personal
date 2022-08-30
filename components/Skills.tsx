@@ -68,8 +68,8 @@ export const Skills: FunctionComponent = () => (
     <p>
       I&apos;m currently working on strengthening my knowledge/understanding of
       ML and MLOps (e.g. how to use Spark/Sagemaker) before tackling some of the
-      datasets on Kaggle. Eventually, I want to use it in a full-scale project I
-      was thinking about using it to make buy/sell decisions in the Stock
+      datasets on Kaggle. Eventually, I want to use it in a full-scale project;
+      I was thinking about using it to make buy/sell decisions in the Stock
       Project described below, but something else interesting may come up.
     </p>
   </section>
