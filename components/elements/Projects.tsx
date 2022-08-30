@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+
+import { ExtLinks } from "../utility/ExtLinks";
 
 import styles from "../../styles/Projects.module.css";
 
@@ -8,26 +9,11 @@ import styles from "../../styles/Projects.module.css";
  */
 export const Projects: FunctionComponent = () => (
   <section>
-    <h3 style={{ margin: "0px" }}>Low-code PDF Extraction Tool</h3>
-    <div>
-      <a
-        className={styles.extLink}
-        href="https://od.meteorapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Website <FaExternalLinkAlt />
-      </a>{" "}
-      /
-      <a className={styles.extLink}>
-        Github <FaExternalLinkAlt />
-      </a>{" "}
-      /
-      <a className={styles.extLink}>
-        {" "}
-        Demo <FaExternalLinkAlt />
-      </a>
-    </div>
+    <h3 style={{ margin: "0px" }}>Low-code PDF Text Extraction Tool</h3>
+    <ExtLinks
+      extLinks={["https://od.meteorapp.com/", "#", "#"]}
+      labels={["Website", "Github", "Demo"]}
+    />
 
     <p>
       <a
