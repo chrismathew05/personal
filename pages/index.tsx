@@ -3,13 +3,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-import { TOC } from "../components/TOC";
-import { About } from "../components/About";
-import { Skills } from "../components/Skills";
-import { Projects } from "../components/Projects";
-import { Education } from "../components/Education";
-import { Experience } from "../components/Experience";
-import { ExtIconGroup } from "../components/ExtIconGroup";
+import { TOC } from "../components/elements/TOC";
+import { About } from "../components/elements/About";
+import { Skills } from "../components/elements/Skills";
+import { Projects } from "../components/elements/Projects";
+import { Education } from "../components/elements/Education";
+import { Experience } from "../components/elements/Experience";
+import { ExtIconGroup } from "../components/elements/ExtIconGroup";
 
 import styles from "../styles/Home.module.css";
 

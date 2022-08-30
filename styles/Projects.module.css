@@ -1,0 +1,9 @@
+.extLink {
+    padding-left: 2px;
+    cursor: pointer;
+    font-size: small;
+}
+
+.extLink:hover {
+    color: royalblue;
+}
