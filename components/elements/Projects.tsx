@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import styles from "../styles/Projects.module.css";
+import styles from "../../styles/Projects.module.css";
 
 /**
  * Content for Projects section

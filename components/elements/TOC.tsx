@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import Link from "next/link";
 
-import styles from "../styles/TOC.module.css";
+import styles from "../../styles/TOC.module.css";
 
 /**
  * Floating table of contents

@@ -2,12 +2,20 @@ import React, { FunctionComponent } from "react";
 
 import { FaGithub, FaLinkedin, FaFileAlt, FaEnvelope } from "react-icons/fa";
 
-import styles from "../../styles/ExtIconGroup.module.css";
+import styles from "../../styles/ExtLinks.module.css";
+
+type ExtLinksProps = {
+  extLinks: string[];
+  labels: string[];
+};
 
 /**
- * Icon group containing external links
+ * Utility component to help group external links into subheading
  */
-export const ExtIconGroup: FunctionComponent = () => (
+export const ExtLinks: FunctionComponent<ExtLinksProps> = ({
+  extLinks,
+  labels,
+}) => (
   <h3>
     <a
       href={"https://github.com/chrismathew05/"}
