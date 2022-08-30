@@ -65,6 +65,13 @@ const Home: NextPage = () => {
             </h2>
             <About />
 
+            <h2 id="skills">
+              <Link href="#skills">
+                <a className={styles.headerLink}>Skills</a>
+              </Link>
+            </h2>
+            <Skills />
+
             <h2 id="projects">
               <Link href="#projects">
                 <a className={styles.headerLink}>Projects</a>

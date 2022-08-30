@@ -12,8 +12,8 @@ export const About: FunctionComponent = () => (
       business problems. I started out as a huge Excel/VBA nerd, but I&apos;ve
       gradually broadened my skillset to address the complexity and size of
       today&apos;s business problems. In my spare time, I work on side projects,
-      try to pick up more technical skills, watch NBA basketball, poorly attempt
-      to play basketball, and take walks.
+      try to pick up more technical skills, watch basketball, poorly attempt to
+      play basketball, and take walks.
     </p>
   </section>
 );
