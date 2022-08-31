@@ -62,7 +62,10 @@ export const Skills: FunctionComponent = () => (
     <ul>
       <li>Javascript/Typescript/HTML/CSS (Medium)</li>
       <li>React (Medium)</li>
-      <li>Frameworks: NextJS (Medium), MeteorJS (Medium), Django (Low)</li>
+      <li>
+        Frameworks: NextJS [Node] (Medium), MeteorJS [Node] (Medium), Django
+        (Low)
+      </li>
     </ul>
 
     <p>
