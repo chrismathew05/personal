@@ -60,7 +60,7 @@ export const Projects: FunctionComponent = () => (
     <ExtLinks
       extLinks={[
         "https://gourd.herokuapp.com/",
-        "https://od.meteorapp.com/developer",
+        "#",
         "https://drive.google.com/file/d/1RbCSGZnpZr2AcinbSDQj7DFCFxUExxyG/view?usp=sharing",
       ]}
       labels={["Website", "Github", "Report"]}
@@ -95,7 +95,7 @@ export const Projects: FunctionComponent = () => (
     <h3 style={{ marginBottom: "0px" }}>Stock Project</h3>
     <ExtLinks
       extLinks={[
-        "https://gourd.herokuapp.com/",
+        "#",
         "https://drive.google.com/file/d/1jU5aN5QjHRmMWUdcc205B8iX-svi8xGZ/view?usp=sharing",
       ]}
       labels={["Github", "Docs"]}
@@ -146,16 +146,78 @@ export const Projects: FunctionComponent = () => (
       keyId="pdflow-skills"
     />
 
-    <h3 style={{ marginBottom: "0px" }}>ML Notebooks</h3>
+    <h3 style={{ marginBottom: "0px" }}>ML Projects</h3>
     <ExtLinks
       extLinks={[
-        "https://gourd.herokuapp.com/",
-        "https://drive.google.com/file/d/1jU5aN5QjHRmMWUdcc205B8iX-svi8xGZ/view?usp=sharing",
+        "https://drive.google.com/drive/folders/1o2KlNyhoPzoZ2nnxFbqTUUp2f-XpbjxE?usp=sharing",
+        "https://drive.google.com/drive/folders/1p8OreUP8v2dYBS7LJER4lYQisvSF5Pce?usp=sharing",
       ]}
       labels={["Full Projects", "Bayesian Stats"]}
       keyId="pdflow"
     />
-    <p>As I </p>
+    <p>
+      I have linked a few Colab notebooks above containing ML projects I&apos;ve
+      worked on/learnings. I&pos;ll continue to add to this repository over
+      time.
+    </p>
+    <ul>
+      <li>
+        Housing Regression: predict median house values in California districts
+      </li>
+      <li>MNIST Classifier: accurately classify digits from MNIST dataset</li>
+      <li>
+        Moons Classifier: grow a Random Forest using an ensemble of Decision
+        Trees
+      </li>
+    </ul>
+    <Pills
+      labels={[
+        "Python",
+        "Numpy",
+        "Pandas",
+        "Scikit-Learn",
+        "Scipy",
+        "ML",
+        "Stats",
+      ]}
+      keyId="pdflow-skills"
+    />
+
     <h3>Other</h3>
+    <ul>
+      <li>
+        <a
+          href="https://github.com/chrismathew05/autorun"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "skyblue" }}
+        >
+          Autorun:
+        </a>{" "}
+        Send jobs to a remote computer without having to set up a server
+      </li>
+      <li>
+        <a
+          href="https://github.com/chrismathew05/cir"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "skyblue" }}
+        >
+          Cir:
+        </a>{" "}
+        Tool to document/explore graph relations between circuit components.
+      </li>
+      <li>
+        <a
+          href="https://github.com/chrismathew05/personal"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "skyblue" }}
+        >
+          This Website:
+        </a>{" "}
+        built with NextJS, React, Typescript
+      </li>
+    </ul>
   </section>
 );
