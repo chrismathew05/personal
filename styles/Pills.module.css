@@ -1,0 +1,16 @@
+/* :root {
+    --border-radius: 50px;
+    --gradient-color-end: #f50057;
+    --gradient-color-start: #004dfd;
+    --gradient-degree: -50deg;
+} */
+
+.pill {
+    font-size: small;
+    border-radius: 15px;
+    padding: .15rem 0.75rem;
+    margin-right: 5px;
+    position: relative;
+    border: solid .2em mediumorchid;
+    color: mediumorchid;
+}
