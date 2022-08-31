@@ -12,7 +12,7 @@ export const Projects: FunctionComponent = () => (
     <h3 style={{ marginBottom: "0px" }}>Low-code PDF Extraction</h3>
     <ExtLinks
       extLinks={[
-        "https://od.meteorapp.com/",
+        "https://od.meteorapp.com/pdflow",
         "https://od.meteorapp.com/developer",
         "#",
         "https://www.youtube.com/watch?v=4EGWN8SdcyE&list=PLJD5A0Xn9q_mJQtCAhv0YSUCJjO0iDq_d&ab_channel=0verdriveConnect",
@@ -67,11 +67,11 @@ export const Projects: FunctionComponent = () => (
       keyId="pdflow"
     />
     <p>
-      &quot;Gourd&quot; was built by me as an internal ERP for our start-up,
-      Intelline, before transitioning to Quickbooks. While most sane people
-      would have used an existing ERP to run their business, I was determined to
-      improve my web dev skills while building an useful, tailored internal tool
-      for our company.
+      &quot;Gourd&quot; was built by me as an internal ERP system for our
+      start-up, Intelline, before transitioning to Quickbooks. While most sane
+      people would have used an existing ERP application to run their business,
+      I was determined to improve my web dev skills while building an useful,
+      tailored internal tool for our company.
     </p>
     <p>
       Gourd includes modules for: recording/tracking tasks, expenditure
@@ -112,7 +112,7 @@ export const Projects: FunctionComponent = () => (
       </a>{" "}
       after listening to a lecture at UW about stock price reactions to earnings
       releases. This project scrapes various sources (Yahoo Finance, Tipranks,
-      Questrade, etc.) and tracks daily/intraday metrics on stocks from the
+      Questrade, etc.) and tracks daily/intraday metrics on many stocks from the
       following markets: CSE, TSX, TSXV, NASDAQ, NYSE. A scoring algorithm is
       continuously run, sending us notifications of what to buy/sell.
     </p>
@@ -120,6 +120,12 @@ export const Projects: FunctionComponent = () => (
       The scoring algorithm is quite naive at the moment. I am considering using
       a supervised learning algorithm (likely an ensemble) to help build a model
       between the metrics I track and stock performance.
+    </p>
+    <p>
+      As this is a private project, I am limited in what I can share. Below is
+      an architecture chart to give you an idea about how it works; I have also
+      provided links to a repo with a very small section of the source code and
+      a cropped screenshot of our documentation in Sphinx.
     </p>
     <Image src={"/pc-flow.png"} width="1870px" height="1320px" alt="test" />
     <Pills
@@ -140,7 +146,16 @@ export const Projects: FunctionComponent = () => (
       keyId="pdflow-skills"
     />
 
-    <h3>ML Notebooks</h3>
+    <h3 style={{ marginBottom: "0px" }}>ML Notebooks</h3>
+    <ExtLinks
+      extLinks={[
+        "https://gourd.herokuapp.com/",
+        "https://drive.google.com/file/d/1jU5aN5QjHRmMWUdcc205B8iX-svi8xGZ/view?usp=sharing",
+      ]}
+      labels={["Full Projects", "Bayesian Stats"]}
+      keyId="pdflow"
+    />
+    <p>As I </p>
     <h3>Other</h3>
   </section>
 );
