@@ -13,9 +13,9 @@ type PillsProps = {
 export const Pills: FunctionComponent<PillsProps> = ({ labels, keyId }) => (
   <>
     {labels.map((label, idx) => (
-      <span className={styles.pill} key={`${keyId}-${idx}`}>
+      <button className={styles.pill} key={`${keyId}-${idx}`}>
         {label}
-      </span>
+      </button>
     ))}
   </>
 );
