@@ -10,8 +10,13 @@ export const Projects: FunctionComponent = () => (
   <section>
     <h3 style={{ margin: "0px" }}>Low-code PDF Text Extraction Tool</h3>
     <ExtLinks
-      extLinks={["https://od.meteorapp.com/", "#", "#"]}
-      labels={["Website", "Github", "Demo"]}
+      extLinks={[
+        "https://od.meteorapp.com/",
+        "https://od.meteorapp.com/developer",
+        "#",
+        "#",
+      ]}
+      labels={["Website", "API", "Github", "Demo"]}
       keyId="pdflow"
     />
 
@@ -20,11 +25,20 @@ export const Projects: FunctionComponent = () => (
       When I was a Staff Accountant at KPMG, I built several VBA programs that
       involved reading text from PDF documents (partnership returns, corporate
       documents, etc.); I finally decided to build a tool that would help
-      simplify the process of building the extraction sequence itself. The web
-      app for Pdflow is built using MeteorJS + React. AWS Lambda is used to
-      partition large extraction jobs. Text extraction is performed via the
+      simplify the process of building the extraction sequence itself.
+    </p>
+    <p>
+      The web app for Pdflow is built using MeteorJS + React. AWS Lambda is used
+      to partition large extraction jobs. Text extraction is performed via the
       Tesseract OCR Engine. Image pre-processing (grayscale, otsu threshold) is
-      used to improve the accuracy of the extraction.
+      used to improve the accuracy of the extraction. Developers can also
+      utilize the Pdflow API to integrate flows into their own apps.
+    </p>
+    <p>
+      Pdflow is used by over 50 users consisting of students, educators,
+      business owners and civic data analysts. Although Stripe integration is
+      included in the app, my users seem more than happy making use of my
+      generous free tier 🥲.
     </p>
     <Pills
       labels={[
@@ -35,8 +49,9 @@ export const Projects: FunctionComponent = () => (
         "Python",
         "Tesseract OCR",
         "Numpy",
+        "Stripe",
       ]}
-      keyId="expo"
+      keyId="pdflow-skills"
     />
 
     <h3>ERP System</h3>
