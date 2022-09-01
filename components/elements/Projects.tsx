@@ -16,10 +16,9 @@ export const Projects: FunctionComponent = () => (
       extLinks={[
         "https://od.meteorapp.com/pdflow",
         "https://od.meteorapp.com/developer",
-        "#",
         "https://www.youtube.com/watch?v=4EGWN8SdcyE&list=PLJD5A0Xn9q_mJQtCAhv0YSUCJjO0iDq_d&ab_channel=0verdriveConnect",
       ]}
-      labels={["Website", "API", "Github", "Demo"]}
+      labels={["Website", "API", "Demo"]}
       keyId="pdflow"
     />
     <p>
@@ -65,7 +64,7 @@ export const Projects: FunctionComponent = () => (
     <ExtLinks
       extLinks={[
         "https://gourd.herokuapp.com/",
-        "#",
+        "https://github.com/chrismathew05/gourd-copy",
         "https://drive.google.com/file/d/1RbCSGZnpZr2AcinbSDQj7DFCFxUExxyG/view?usp=sharing",
       ]}
       labels={["Website", "Github", "Report"]}
@@ -102,11 +101,11 @@ export const Projects: FunctionComponent = () => (
     </h3>
     <ExtLinks
       extLinks={[
-        "#",
+        "https://github.com/chrismathew05/pc-copy",
         "https://drive.google.com/file/d/1jU5aN5QjHRmMWUdcc205B8iX-svi8xGZ/view?usp=sharing",
       ]}
       labels={["Github", "Docs"]}
-      keyId="pdflow"
+      keyId="stock"
     />
     <p>
       I started this project with my friend{" "}
@@ -120,7 +119,7 @@ export const Projects: FunctionComponent = () => (
       </a>{" "}
       after listening to a lecture at UW about stock price reactions to earnings
       releases. This project scrapes various sources (Yahoo Finance, Tipranks,
-      Questrade, etc.) and tracks daily/intraday metrics on many stocks from the
+      Questrade, etc.) and tracks daily/intraday metrics on stocks from the
       following markets: CSE, TSX, TSXV, NASDAQ, NYSE. A scoring algorithm is
       continuously run, sending us notifications of what to buy/sell.
     </p>
@@ -138,7 +137,7 @@ export const Projects: FunctionComponent = () => (
     <Image src={"/pc-flow.png"} width="1870px" height="1320px" alt="test" />
     <Pills
       labels={[
-        "Javascript",
+        "Typescript",
         "NextJS",
         "React",
         "CockroachDB",

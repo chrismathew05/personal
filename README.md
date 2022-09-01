@@ -1,7 +1,5 @@
 # Personal Website
 
-## About
-
 This is the repo for my personal site: [chrismathew.ca](http://chrismathew.ca/). The purpose of this site is to let the user learn a little bit more about me and what I've worked on.
 
 ## Build
@@ -26,7 +24,7 @@ This project uses the following tech stack:
 
 ## TODO
 
-- [ ] Add color to quick link icons
-- [ ] Add tooltips to link icons
-- [ ] Clean up repos linked to site
+- [x] Add color to quick link icons
+- [x] Add tooltips to link icons
+- [x] Clean up repos linked to site
 - [ ] Add GIFs of tool usage
