@@ -94,11 +94,7 @@ const Home: NextPage = () => (
 
     {/* Footer */}
     <footer className={styles.footer}>
-      <a
-        href="https://github.com/chrismathew05/personal"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="#" target="_blank" rel="noopener noreferrer">
         Copyright © 2022, Chris Mathew
       </a>
     </footer>

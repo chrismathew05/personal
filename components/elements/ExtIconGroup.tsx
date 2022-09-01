@@ -26,7 +26,9 @@ export const ExtIconGroup: FunctionComponent = () => (
       <FaLinkedin />
     </a>
     <a
-      href={"https://github.com/chrismathew05/"}
+      href={
+        "https://drive.google.com/file/d/1dd2ZhVe1n-ZfaXHh2poGr6fNFk7ixm-U/view?usp=sharing"
+      }
       target="_blank"
       rel="noopener noreferrer"
       className={styles.icon}
