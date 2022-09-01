@@ -113,8 +113,8 @@ export const Experience: FunctionComponent = () => (
       />
       <ul>
         <li>
-          Prepared working papers and corporate tax returns (US 1120, 1120-F,
-          1065, state returns, etc.)
+          Prepared working papers and US corporate/partnership tax returns (US
+          1120, 1120-F, 1065, state returns, etc.)
         </li>
         <li>
           Developed circular flip partnership models that accounted for s731
@@ -128,6 +128,10 @@ export const Experience: FunctionComponent = () => (
           Developed WP that uses PowerQuery and VBA to automatically calculate
           daily CG/ordinary income and generate client PFIC statements for a
           fund
+        </li>
+        <li>
+          Various rotations in FI Audit, US Personal Tax, Canadian
+          Personal/Corporate Tax
         </li>
       </ul>
 
