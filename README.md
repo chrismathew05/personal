@@ -23,3 +23,10 @@ This project uses the following tech stack:
 1. NextJS
 2. React
 3. TypeScript
+
+## TODO
+
+- [ ] Add color to quick link icons
+- [ ] Add tooltips to link icons
+- [ ] Clean up repos linked to site
+- [ ] Add GIFs of tool usage
