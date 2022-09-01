@@ -101,20 +101,72 @@ export const Experience: FunctionComponent = () => (
         </li>
       </ul>
 
-      <h3>Staff Accountant | KPMG | 2017 - 2020</h3>
+      <h3 style={{ marginBottom: "0px" }}>
+        Staff Accountant | KPMG | 2017 - 2020
+      </h3>
+      <ExtLinks
+        extLinks={[
+          "https://drive.google.com/file/d/1wUCq-3Pd8_PQdCDUQC-v8_Kant2jfeBA/view?usp=sharing",
+        ]}
+        labels={["Asset Classification Tool"]}
+        keyId="kpmg"
+      />
       <ul>
         <li>
           Prepared working papers and corporate tax returns (US 1120, 1120-F,
           1065, state returns, etc.)
         </li>
+        <li>
+          Developed circular flip partnership models that accounted for s731
+          gains and s734 depreciation
+        </li>
+        <li>
+          Built asset classification and depreciation converter to allow US tax
+          team to automatically convert assets from GDS to ADS depreciation
+        </li>
+        <li>
+          Developed WP that uses PowerQuery and VBA to automatically calculate
+          daily CG/ordinary income and generate client PFIC statements for a
+          fund
+        </li>
       </ul>
 
-      <h3>Quant Developer | Scotiabank | S2016</h3>
+      <h3 style={{ marginBottom: "0px" }}>
+        Quant Developer | Scotiabank | S2016
+      </h3>
+      <ExtLinks
+        extLinks={[
+          "https://drive.google.com/file/d/1XYB9C387SqT8IMewF927QCMNOJvdvObK/view?usp=sharing",
+          "https://drive.google.com/file/d/141E3W1v4SuhyHKiObAeqg3Y25tOxzbas/view?usp=sharing",
+        ]}
+        labels={["Strategy Code Generator", "Portfolio Analytics Tool"]}
+        keyId="scotia"
+      />
       <ul>
         <li>
           Created Strategy Code Generator using Excel VBA and Dynamic Data
           Exchange (DDE) functions that allowed trading team to quickly add
           strategy tags to Bloomberg for the team to book trades under
+        </li>
+        <li>
+          Developed Portfolio Analytics tool using a combination of Excel VBA
+          and Bloomberg Add-ins to allow team to compare the performance of
+          their own Multi-Asset Growth fund to other funds and indices on the
+          market, as well as calculating a range of useful summary statistics on
+          selected indices (i.e. min/max return, average return, Sharpe ratio,
+          Sortino ratio, Information ratio, auto-correlation etc.)
+          <ul>
+            <li>
+              The tool helped the team to compare indexed values, rolling
+              returns, and drawdowns while allowing for dynamic control over
+              index point, date range, and any number of indices for comparison
+            </li>
+          </ul>
+        </li>
+        <li>
+          Utilized MATLAB and historical options data to create NAV valuation
+          tool that allowed team to calculate theoretical daily NAV figures for
+          unique investment strategy developed by the team
         </li>
       </ul>
     </div>
