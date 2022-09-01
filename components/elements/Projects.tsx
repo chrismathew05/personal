@@ -107,8 +107,9 @@ export const Projects: FunctionComponent = () => (
         href="https://ca.linkedin.com/in/tobiaspushparajah"
         target="_blank"
         rel="noopener noreferrer"
+        style={{ color: "skyblue" }}
       >
-        <u>Tobias</u>
+        Tobias
       </a>{" "}
       after listening to a lecture at UW about stock price reactions to earnings
       releases. This project scrapes various sources (Yahoo Finance, Tipranks,
