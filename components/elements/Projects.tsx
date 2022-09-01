@@ -158,7 +158,7 @@ export const Projects: FunctionComponent = () => (
     />
     <p>
       I have linked a few Colab notebooks above containing ML projects I&apos;ve
-      worked on/learnings. I&pos;ll continue to add to this repository over
+      worked on/learnings. I&apos;ll continue to add to this repository over
       time.
     </p>
     <ul>
@@ -186,6 +186,26 @@ export const Projects: FunctionComponent = () => (
 
     <h3>Other</h3>
     <ul>
+      <li>
+        <a
+          href="https://od.meteorapp.com/pdflooper"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "skyblue" }}
+        >
+          Pdflooper:
+        </a>{" "}
+        Automates batch PDF page insertion/deletion/replacement (
+        <a
+          href="https://www.youtube.com/watch?v=ypB1Cb65xeg&ab_channel=0verdriveConnect"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "skyblue" }}
+        >
+          demo
+        </a>
+        )
+      </li>
       <li>
         <a
           href="https://github.com/chrismathew05/autorun"
