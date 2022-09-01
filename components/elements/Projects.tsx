@@ -9,7 +9,9 @@ import { Pills } from "../utility/Pills";
  */
 export const Projects: FunctionComponent = () => (
   <section>
-    <h3 style={{ marginBottom: "0px" }}>Low-code PDF Extraction</h3>
+    <h3 id="pdflow" style={{ marginBottom: "0px" }}>
+      Low-code PDF Extraction
+    </h3>
     <ExtLinks
       extLinks={[
         "https://od.meteorapp.com/pdflow",
@@ -49,6 +51,7 @@ export const Projects: FunctionComponent = () => (
         "React",
         "MongoDB",
         "AWS",
+        "Docker",
         "Python",
         "Tesseract",
         "Stripe",
@@ -56,7 +59,9 @@ export const Projects: FunctionComponent = () => (
       keyId="pdflow-skills"
     />
 
-    <h3 style={{ marginBottom: "0px" }}>ERP System</h3>
+    <h3 id="gourd" style={{ marginBottom: "0px" }}>
+      ERP System
+    </h3>
     <ExtLinks
       extLinks={[
         "https://gourd.herokuapp.com/",
@@ -92,7 +97,9 @@ export const Projects: FunctionComponent = () => (
       keyId="pdflow-skills"
     />
 
-    <h3 style={{ marginBottom: "0px" }}>Stock Project</h3>
+    <h3 id="stock" style={{ marginBottom: "0px" }}>
+      Stock Project
+    </h3>
     <ExtLinks
       extLinks={[
         "#",
@@ -137,6 +144,7 @@ export const Projects: FunctionComponent = () => (
         "CockroachDB",
         "SQL",
         "AWS",
+        "Docker",
         "Python",
         "Numpy",
         "Pandas",
