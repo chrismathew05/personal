@@ -19,8 +19,7 @@ const Home: NextPage = () => (
       <title>Chris Mathew</title>
       <meta
         name="description"
-        content="UW Math/Accounting graduate enthusiastic about the intersection of Data Science and Business. Currently a YC co-founder @Intelline Inc."
-        key="desc"
+        content="UW graduate interested in Data Science and Business. Currently a YC co-founder @Intelline Inc."
       />
       <meta property="og:title" content="Chris Mathew" />
       <meta property="og:description" content="Chris Mathew Personal Website" />
