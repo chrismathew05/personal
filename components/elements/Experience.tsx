@@ -9,7 +9,7 @@ export const Experience: FunctionComponent = () => (
   <section>
     <div>
       <h3 style={{ marginBottom: "0px" }}>
-        Co-founder | Intelline Inc. | 2017 - 2022
+        Co-founder | Intelline Inc. | Jun 2021 - Sep 2022
       </h3>
       <ExtLinks
         extLinks={[
@@ -61,6 +61,7 @@ export const Experience: FunctionComponent = () => (
               W19 batch
             </li>
             <li>Raised 1.5M+ USD in dilutive/non-dilutive funding</li>
+            <li>28M+ USD in signed LOIs</li>
             <li>Set up facility in Waterloo, Ontario</li>
             <li>Completed build of in-house engine test cell</li>
             <li>Successfully tested custom piston-mounted valvetrain</li>
@@ -102,7 +103,7 @@ export const Experience: FunctionComponent = () => (
       </ul>
 
       <h3 style={{ marginBottom: "0px" }}>
-        Staff Accountant | KPMG | 2017 - 2020
+        Staff Accountant | KPMG | Jan 2017 - Jun 2021
       </h3>
       <ExtLinks
         extLinks={[
@@ -136,7 +137,7 @@ export const Experience: FunctionComponent = () => (
       </ul>
 
       <h3 style={{ marginBottom: "0px" }}>
-        Quant Developer | Scotiabank | S2016
+        Quant Developer | Scotiabank | Apr 2016 - Aug 2016
       </h3>
       <ExtLinks
         extLinks={[
