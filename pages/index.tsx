@@ -11,6 +11,7 @@ import { Education } from "../components/elements/Education";
 import { Experience } from "../components/elements/Experience";
 import { ExtIconGroup } from "../components/elements/ExtIconGroup";
 
+import profilePic from "../public/profile.png";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => (
@@ -31,12 +32,7 @@ const Home: NextPage = () => (
     <main className={styles.main}>
       {/* Profile Pic */}
       <div className={styles.profile}>
-        <Image
-          src={"/profile.png"}
-          layout="fill"
-          objectFit="cover"
-          alt="test"
-        />
+        <Image src={profilePic} alt="profile-pic" />
       </div>
 
       {/* Header */}
