@@ -1,6 +1,9 @@
 import React, { FunctionComponent } from "react";
+import Image from "next/image";
 
 import { ExtLinks } from "../utility/ExtLinks";
+
+import testCell1 from "../../public/testcell-1.jpg";
 
 /**
  * Content for Experience section
@@ -101,6 +104,7 @@ export const Experience: FunctionComponent = () => (
           </ul>
         </li>
       </ul>
+      <Image src={testCell1} alt="testcell-1" />
 
       <h3 style={{ marginBottom: "0px" }}>
         Staff Accountant | KPMG | Jan 2017 - Jun 2021
