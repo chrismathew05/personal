@@ -5,6 +5,8 @@ import { ExtLinks } from "../utility/ExtLinks";
 import { Pills } from "../utility/Pills";
 
 import pcFlow from "../../public/pc-flow.png";
+import pdflow from "../../public/pdflow.gif";
+import gourd from "../../public/gourd.gif";
 
 /**
  * Content for Projects section
@@ -24,11 +26,12 @@ export const Projects: FunctionComponent = () => (
       keyId="pdflow"
     />
     <p>
-      &quot;Pdflow&quot; is a low-code solution to extract text from PDF files.
-      When I was a Staff Accountant at KPMG, I built several VBA programs that
-      involved reading text from PDF documents (partnership returns, corporate
-      documents, etc.); I finally decided to build a tool that would help
-      simplify the process of building the extraction sequence itself.
+      &quot;Pdflow&quot; is a low-code solution to build text extraction
+      sequences for PDF files. When I was a Staff Accountant at KPMG, I built
+      several VBA programs that involved reading text from PDF documents
+      (partnership returns, corporate documents, etc.); I finally decided to
+      build a tool that would help simplify the process of building the
+      extraction sequence itself.
     </p>
     <p>
       The web app for Pdflow is built using MeteorJS + React. AWS Lambda is used
@@ -45,6 +48,7 @@ export const Projects: FunctionComponent = () => (
       the app, my users seem more than happy making use of my generous free tier
       🥲.
     </p>
+    <Image src={pdflow} alt="pdflow" />
     <Pills
       labels={[
         "Javascript",
@@ -85,6 +89,7 @@ export const Projects: FunctionComponent = () => (
       Tableau (analysis) and Google Drive (uploading/downloading supporting
       documentation).
     </p>
+    <Image src={gourd} alt="gourd" />
     <Pills
       labels={[
         "Javascript",
