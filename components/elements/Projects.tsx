@@ -4,6 +4,8 @@ import Image from "next/image";
 import { ExtLinks } from "../utility/ExtLinks";
 import { Pills } from "../utility/Pills";
 
+import pcFlow from "../../public/pc-flow.png";
+
 /**
  * Content for Projects section
  */
@@ -134,7 +136,7 @@ export const Projects: FunctionComponent = () => (
       provided links to a repo with a very small section of the source code and
       a cropped screenshot of our documentation in Sphinx.
     </p>
-    <Image src={"/pc-flow.png"} width="1870px" height="1320px" alt="test" />
+    <Image src={pcFlow} alt="pc-flow" />
     <Pills
       labels={[
         "Typescript",
