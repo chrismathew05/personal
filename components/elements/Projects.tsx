@@ -48,7 +48,12 @@ export const Projects: FunctionComponent = () => (
       the app, my users seem more than happy making use of my generous free tier
       🥲.
     </p>
-    <Image src={pdflow} alt="pdflow" />
+    <Image
+      src={pdflow}
+      alt="pdflow"
+      placeholder="blur"
+      blurDataURL="https://www.pngkey.com/png/detail/233-2332677_image-500580-placeholder-transparent.png"
+    />
     <Pills
       labels={[
         "Javascript",
@@ -89,7 +94,12 @@ export const Projects: FunctionComponent = () => (
       Tableau (analysis) and Google Drive (uploading/downloading supporting
       documentation).
     </p>
-    <Image src={gourd} alt="gourd" />
+    <Image
+      src={gourd}
+      alt="gourd"
+      placeholder="blur"
+      blurDataURL="https://www.pngkey.com/png/detail/233-2332677_image-500580-placeholder-transparent.png"
+    />
     <Pills
       labels={[
         "Javascript",
@@ -141,7 +151,7 @@ export const Projects: FunctionComponent = () => (
       provided links to a repo with a very small section of the source code and
       a cropped screenshot of our documentation in Sphinx.
     </p>
-    <Image src={pcFlow} alt="pc-flow" />
+    <Image src={pcFlow} alt="pc-flow" placeholder="blur" />
     <Pills
       labels={[
         "Typescript",

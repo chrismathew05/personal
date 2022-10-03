@@ -105,8 +105,8 @@ export const Experience: FunctionComponent = () => (
           </ul>
         </li>
       </ul>
-      <Image src={testCell1} alt="testcell-1" />
-      <Image src={testCell2} alt="testcell-2" />
+      <Image src={testCell1} alt="testcell-1" placeholder="blur" />
+      <Image src={testCell2} alt="testcell-2" placeholder="blur" />
 
       <h3 style={{ marginBottom: "0px" }}>
         Staff Accountant | KPMG | Jan 2017 - Jun 2021
