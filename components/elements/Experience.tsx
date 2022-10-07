@@ -13,7 +13,7 @@ export const Experience: FunctionComponent = () => (
   <section>
     <div>
       <h3 style={{ marginBottom: "0px" }}>
-        Co-founder | Intelline Inc. | Jun 2021 - Sep 2022
+        Co-founder | Intelline Inc. | Jun 2021 - Present
       </h3>
       <ExtLinks
         extLinks={[
