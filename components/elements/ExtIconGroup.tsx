@@ -29,7 +29,7 @@ export const ExtIconGroup: FunctionComponent = () => (
     </a>
     <a
       href={
-        "https://drive.google.com/file/d/1z3hDU1tlwBK2VwZLATzWgXC5qUrglSLZ/view?usp=sharing"
+        "https://drive.google.com/file/d/1JUtFAgK-fHwXFNRbvfLdXCbluNuk5jee/view?usp=sharing"
       }
       target="_blank"
       rel="noopener noreferrer"
