@@ -13,7 +13,7 @@ export const Experience: FunctionComponent = () => (
   <section>
     <div>
       <h3 style={{ marginBottom: "0px" }}>
-        Co-founder | Intelline Inc. | Jun 2021 - Present
+        Co-founder | Intelline Inc. | Jul 2021 - Present
       </h3>
       <ExtLinks
         extLinks={[
@@ -83,7 +83,7 @@ export const Experience: FunctionComponent = () => (
             </li>
             <li>
               <i>Tax Reporting and Planning: </i>prepare T2 Return for CCPC,
-              Delware Franchise Tax Return/1120 Return for US entity, prepare
+              Delaware Franchise Tax Return/1120 Return for US entity, prepare
               HST and T4 Information Returns, set up intercompany fee mechanism
               to ensure compliance with transfer pricing guidelines, prepare
               T661 for SRED
@@ -175,9 +175,9 @@ export const Experience: FunctionComponent = () => (
           </ul>
         </li>
         <li>
-          Utilized MATLAB and historical options data to create NAV valuation
-          tool that allowed team to calculate theoretical daily NAV figures for
-          unique investment strategy developed by the team
+          Utilized Python, SQLite and historical options data to create NAV
+          valuation tool that allowed team to calculate theoretical daily NAV
+          figures for unique investment strategy developed by the team
         </li>
       </ul>
     </div>

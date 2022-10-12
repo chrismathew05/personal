@@ -27,5 +27,6 @@ This project uses the following tech stack:
 - [x] Add color to quick link icons
 - [x] Add tooltips to link icons
 - [x] Clean up repos linked to site
-- [ ] Add GIFs of tool usage
+- [x] Add GIFs of tool usage
 - [ ] Check and further optimize SEO
+- [ ] Add link to updated resume
