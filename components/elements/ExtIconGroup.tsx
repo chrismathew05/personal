@@ -18,26 +18,17 @@ export const ExtIconGroup: FunctionComponent = () => (
       <FaGithub />
       <span className={styles.tooltiptext}>Github</span>
     </a>
-    <a
-      href={"https://ca.linkedin.com/in/chris-mathew-0bbb26128"}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`${styles.icon} ${styles.tooltip}`}
-    >
-      <FaLinkedin />
-      <span className={styles.tooltiptext}>LinkedIn</span>
-    </a>
-    <a
-      href={
-        "https://docs.google.com/document/d/1K9bFohkpZfcA_TmzRFO3uR3EWdA6aTV9wy_U_WTZkHY/edit?usp=sharing"
-      }
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`${styles.icon} ${styles.tooltip}`}
-    >
-      <FaFileAlt />
-      <span className={styles.tooltiptext}>Resume</span>
-    </a>
+    {/* <a */}
+    {/*   href={ */}
+    {/*     "https://docs.google.com/document/d/1K9bFohkpZfcA_TmzRFO3uR3EWdA6aTV9wy_U_WTZkHY/edit?usp=sharing" */}
+    {/*   } */}
+    {/*   target="_blank" */}
+    {/*   rel="noopener noreferrer" */}
+    {/*   className={`${styles.icon} ${styles.tooltip}`} */}
+    {/* > */}
+    {/*   <FaFileAlt /> */}
+    {/*   <span className={styles.tooltiptext}>Resume</span> */}
+    {/* </a> */}
     <a
       href={"mailto:chrismathew05@gmail.com"}
       className={`${styles.icon} ${styles.tooltip}`}
