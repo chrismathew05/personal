@@ -5,10 +5,10 @@ import Link from "next/link";
 
 import { TOC } from "../components/elements/TOC";
 import { About } from "../components/elements/About";
-import { Skills } from "../components/elements/Skills";
+// import { Skills } from "../components/elements/Skills";
 import { Projects } from "../components/elements/Projects";
-import { Education } from "../components/elements/Education";
-import { Experience } from "../components/elements/Experience";
+// import { Education } from "../components/elements/Education";
+// import { Experience } from "../components/elements/Experience";
 import { ExtIconGroup } from "../components/elements/ExtIconGroup";
 
 import profilePic from "../public/profile.png";
@@ -20,7 +20,7 @@ const Home: NextPage = () => (
             <title>Chris Mathew</title>
             <meta
                 name="description"
-                content="UW graduate interested in Data Science and Business. Currently a YC co-founder @Intelline Inc."
+                content="UW graduate interested in building things."
             />
             <meta property="og:title" content="Chris Mathew" />
             <meta property="og:description" content="Chris Mathew Personal Website" />
@@ -37,9 +37,9 @@ const Home: NextPage = () => (
 
             {/* Header */}
             <h1 className={styles.title}>Chris Mathew</h1>
-            <p className={styles.description}>
-                Enthusiastic about the intersection of Data Science and Business.
-            </p>
+            {/* <p className={styles.description}> */}
+            {/*     Enthusiastically building things! */}
+            {/* </p> */}
             <ExtIconGroup />
 
             <div className={styles.row}>
@@ -70,29 +70,29 @@ const Home: NextPage = () => (
                     </h2>
                     <Projects />
 
-                    <h2 id="experience">
-                        <Link href="#experience">
-                            <a className={styles.headerLink}>Experience</a>
-                        </Link>
-                    </h2>
-                    <Experience />
-
-                    <h2 id="education">
-                        <Link href="#education">
-                            <a className={styles.headerLink}>Education</a>
-                        </Link>
-                    </h2>
-                    <Education />
+                    {/* <h2 id="experience"> */}
+                    {/*     <Link href="#experience"> */}
+                    {/*         <a className={styles.headerLink}>Experience</a> */}
+                    {/*     </Link> */}
+                    {/* </h2> */}
+                    {/* <Experience /> */}
+                    {/**/}
+                    {/* <h2 id="education"> */}
+                    {/*     <Link href="#education"> */}
+                    {/*         <a className={styles.headerLink}>Education</a> */}
+                    {/*     </Link> */}
+                    {/* </h2> */}
+                    {/* <Education /> */}
                 </div>
             </div>
         </main>
 
         {/* Footer */}
-        <footer className={styles.footer}>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                Copyright © 2022, Chris Mathew
-            </a>
-        </footer>
+        {/* <footer className={styles.footer}> */}
+        {/*     <a href="#" target="_blank" rel="noopener noreferrer"> */}
+        {/*         Copyright © 2024, Chris Mathew */}
+        {/*     </a> */}
+        {/* </footer> */}
     </div>
 );
 
