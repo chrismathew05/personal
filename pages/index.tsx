@@ -11,7 +11,7 @@ import { Projects } from "../components/elements/Projects";
 // import { Experience } from "../components/elements/Experience";
 import { ExtIconGroup } from "../components/elements/ExtIconGroup";
 
-import profilePic from "../public/profile.png";
+import profilePic from "../public/profile-new.png";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => (
